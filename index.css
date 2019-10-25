@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+font-family: 'Lato', sans-serif;
+	color: 	#F7F9F9;
+	text-transform: uppercase;
+	backface-visibility: hidden;
+
+}
+
+.page2text {
+	height: 400px;
+	width: 1000px;
+	margin: 50px 200px;
+	font-size: 30px;
+	letter-spacing: 24px;
+	font-weight: 400;
+	
+	background: rgba(255,255,255,.2);
+	padding: 10px;
+	color: rgb(224,224,224);
+	animation: headingFrameSecond 1s ease-out;
+}
+
+body {
+background-image: linear-gradient(to right, rgba(0,0,0,.7), rgba(105,105,105,.7)), 
+url(https://images.unsplash.com/photo-1541727687969-ce40493cd847?ixlib=rb-1.2.1&auto=format&fit=crop&w=969&q=80);
+background-size: cover;
+height: 95vh;
+}
+
+.main {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	white-space: nowrap;
+}
+
+.aboutMe {
+	font-size: 20px;
+	background: rgba(255,255,255,.2);
+	margin: 100px 100px;
+	height: 60vh;
+}
+
+h1 {
+	margin-bottom: 8%;
+	font-size: 60px;
+	letter-spacing: 24px;
+	font-weight: 400;
+	animation: headingFrame 3s ease-out;
+	background: rgba(255,255,255,.2);
+	padding: 10px;
+	color: rgb(224,224,224);
+
+
+
+}
+
+.front-end-developer {
+	margin-bottom: 12%;
+	font-size: 24px;
+	margin-left: 12%;
+	letter-spacing: 12px;
+	font-weight: 200;
+	animation: headingFrameSecond 2s ease-out;
+
+}
+
+.button:link,
+.button:visited {
+text-decoration: none;
+font-size: 20px;
+letter-spacing: 2px;
+color: white;
+animation: buttonFrame 4s ease-out;
+
+
+  
+}
+
+.button1 {
+	margin-right: 30px;
+	margin-left: 17.5%;
+	padding: 14px 25px;
+	border: 2px solid #D6FFFF;
+}
+
+.button2 {
+	padding: 14px 43px;
+	border: 2px solid #FFCCCB;
+
+}
+
+.button1:hover {
+	background-color: black;
+	color: #D6FFFF;
+	
+
+}
+
+.button2:hover {
+	background-color: black;
+	color: #FFCCCB;
+	
+	
+}
+
+@keyframes buttonFrame {
+	0% {
+		opacity: 0;
+	}
+
+	80% {
+		opacity: 0.7;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes headingFrame {
+    0%   {background: #FFE3E3; color: grey; opacity: 0;}
+    50%  {background: #D6FFFF; color: rgb(224,224,224); opacity: 0.2;}
+    70%  {background: rgba(255,255,255,.2); color: rgb(224,224,224) opacity: 0.5}
+    100% {background: rgba(255,255,255,.2); color: rgb(224,224,224); opacity: 0.9;}
+}
+
+@keyframes headingFrameSecond {
+    0%   {opacity: 0;}
+    50%  {opacity: 0.1;}
+    70%  {opacity: 0.4;}
+    100% {opacity: 0.8;}
+}
+
+@media (orientation: portrait) {
+h1{
+   
+	font-size: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+	}
+    
+}
+
+@media (orientation: portrait) {
+.front-end-developer{
+   
+   margin-right: 30px;
+   margin-left: 100px;
+	
+
+	}
+    
+}
