@@ -9,7 +9,8 @@ I am a junior self-taught front-end developer. I am based in Birmingham, UK. Thi
 
 3. *Quiz* ~                       This is a 10 question quiz built using HTML, CSS, Javascript
 
-(The 'Home' button in both projects takes you back to the 'Portfolio Landing Page'. Don't forget to 'Press Play' to watch the video in 'See What We Do' section of the Pro Photos site.)
+(The 'Home' button in both projects takes you back to the 'Portfolio Landing Page'. 
+Don't forget to watch the video in 'See What We Do' section of 'Pro Photos'.)
 
 I can be contacted on jag.chumber@hotmail.com
 
